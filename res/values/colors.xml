@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <!-- цвет фона на всех окнах -->
+    <color name="mainBackground"> #000000 </color>
+    
+    <!-- цвета текста-->
+    <color name="textColor"> #f1faee </color>
+    <color name="textColorDark"> #000000 </color>
+    
+    <!-- цвета заголовков окон -->
+    <color name="mainTextBackground"> #457b9d </color>
+    <color name="currentTextBackground"> #6d597a </color>
+    <color name="updateTextBackground"> #e63946 </color>
+    
+    <!-- цвета кнопок-->
+    <color name="buttonGet"> #f4a261 </color>
+    <color name="buttonDelete"> #e63946 </color>
+    <color name="buttonUpdate"> #0ead69 </color>
+    <color name="buttonBack"> #5c677d </color>
+    <color name="buttonMain"> #05668d </color>
+    
+    <!-- цвет разделителя списка-->
+    <color name="listDivider"> #a8dadc </color>
+    
+    <!-- цвета полей вывода -->
+    <color name="currentInfo"> #ced4da  </color>
+    <color name="editInfo"> #f8f9fa </color>
+    
+    <!-- цвет фона выпадающего списка -->
+    <color name="spinnerBackground"> #b7b7a4 </color>
+    
+</resources>

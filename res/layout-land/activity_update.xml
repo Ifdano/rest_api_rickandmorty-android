@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background = "@color/mainBackground"
+    android:focusable = "true"
+    android:focusableInTouchMode = "true"
+    tools:context=".UpdateData" >
+    
+     <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/updateDisplayText"
+        android:textSize = "@dimen/_18ssp"
+        android:textColor = "@color/textColor"
+        android:background = "@color/updateTextBackground"
+        android:gravity = "center"
+        android:layout_gravity = "center"
+        android:padding = "@dimen/_5sdp"
+        android:layout_weight = "0"/>
+     
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "horizontal"
+        android:layout_weight = "1">
+    
+    	<fragment 
+        	android:name = "com.example.myapplication_rickandmorty.fragments.UpdateFragment"
+        	android:layout_width = "match_parent"
+        	android:layout_height = "match_parent"
+        	android:id = "@+id/updateFragment"
+        	android:layout_weight = "2"
+        	android:layout_marginTop = "@dimen/_10sdp"
+        	tools:layout = "@layout/update_fragment"
+        	android:layout_marginBottom = "@dimen/_10sdp"/>
+    
+    	<LinearLayout
+        	android:layout_width = "match_parent"
+        	android:layout_height = "wrap_content"
+        	android:layout_weight = "5"
+        	android:orientation = "vertical"
+        	android:layout_gravity = "center"
+        	android:gravity = "center"
+        	android:padding = "@dimen/_5sdp">
+                
+        	<Button
+            	android:id = "@+id/buttonUpdate"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/buttonUpdateText"
+            	android:textSize = "@dimen/_15ssp"
+            	android:textColor = "@color/textColor"
+            	android:background = "@color/buttonUpdate"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_10sdp"/>
+                
+         	<Button
+            	android:id = "@+id/buttonBack"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/buttonBackText"
+            	android:textSize = "@dimen/_15ssp"
+            	android:textColor = "@color/textColor"
+            	android:background = "@color/buttonBack"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_10sdp"
+            	android:layout_marginTop = "@dimen/_15sdp"/>
+                
+         	<Button
+            	android:id = "@+id/buttonMain"
+            	android:layout_width = "wrap_content"
+            	android:layout_height = "wrap_content"
+            	android:text = "@string/buttonMainText"
+            	android:textSize = "@dimen/_15ssp"
+            	android:textColor = "@color/textColor"
+            	android:background = "@color/buttonMain"
+            	android:gravity = "center"
+            	android:layout_gravity = "center"
+            	android:padding = "@dimen/_10sdp"
+            	android:layout_marginTop = "@dimen/_15sdp"/>
+         	
+        </LinearLayout>
+                
+   </LinearLayout>
+    
+</LinearLayout>
